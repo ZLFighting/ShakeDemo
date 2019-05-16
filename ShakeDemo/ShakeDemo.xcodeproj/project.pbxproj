@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		782CC2131E8A390600FB76E3 /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = 782CC2121E8A390600FB76E3 /* shake_sound_male.wav */; };
-		782CC2171E8A501400FB76E3 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 782CC2161E8A501400FB76E3 /* UIView+ZLExtension.m */; };
-		782CC21B1E8A520D00FB76E3 /* shake_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782CC2181E8A520D00FB76E3 /* shake_up@2x.png */; };
-		782CC21C1E8A520D00FB76E3 /* shake_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782CC2191E8A520D00FB76E3 /* shake_down@2x.png */; };
-		782CC21D1E8A520D00FB76E3 /* shake_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 782CC21A1E8A520D00FB76E3 /* shake_bg@2x.png */; };
+		0B2739C4228D186F00906851 /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739B9228D186F00906851 /* shake_sound_male.wav */; };
+		0B2739C5228D186F00906851 /* shake_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739BA228D186F00906851 /* shake_down@2x.png */; };
+		0B2739C6228D186F00906851 /* shake_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739BB228D186F00906851 /* shake_bg@2x.png */; };
+		0B2739C7228D186F00906851 /* shake_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739BC228D186F00906851 /* shake_up@2x.png */; };
+		0B2739C8228D186F00906851 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2739BE228D186F00906851 /* ShakeViewController.m */; };
+		0B2739C9228D186F00906851 /* Shake2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2739C1228D186F00906851 /* Shake2ViewController.m */; };
+		0B2739D2228D2F7E00906851 /* shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739CC228D2F7E00906851 /* shake.mp3 */; };
+		0B2739D3228D2F7E00906851 /* shake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739CD228D2F7E00906851 /* shake@3x.png */; };
+		0B2739D4228D2F7E00906851 /* shake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739CE228D2F7E00906851 /* shake@2x.png */; };
+		0B2739D5228D2F7E00906851 /* result.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739CF228D2F7E00906851 /* result.mp3 */; };
+		0B2739D6228D2F7E00906851 /* shakeBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739D0228D2F7E00906851 /* shakeBg@3x.png */; };
+		0B2739D7228D2F7E00906851 /* shakeBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739D1228D2F7E00906851 /* shakeBg@2x.png */; };
+		0B2739DA228D2F9D00906851 /* ZLAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2739D9228D2F9D00906851 /* ZLAudioTool.m */; };
+		0B2739E0228D302600906851 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2739DE228D302600906851 /* UIView+ZLExtension.m */; };
+		0B2739E1228D302600906851 /* UIAlertController+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2739DF228D302600906851 /* UIAlertController+Color.m */; };
+		0B2739E6228D36AC00906851 /* icon_music_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739E2228D36AB00906851 /* icon_music_on@3x.png */; };
+		0B2739E7228D36AC00906851 /* icon_music_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739E3228D36AC00906851 /* icon_music_off@2x.png */; };
+		0B2739E8228D36AC00906851 /* icon_music_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739E4228D36AC00906851 /* icon_music_on@2x.png */; };
+		0B2739E9228D36AC00906851 /* icon_music_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739E5228D36AC00906851 /* icon_music_off@3x.png */; };
+		0B2739EE228D36FD00906851 /* MuteSwitchListener.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739EC228D36FD00906851 /* MuteSwitchListener.bundle */; };
+		0B2739EF228D36FD00906851 /* MuteSwitchListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2739ED228D36FD00906851 /* MuteSwitchListener.m */; };
+		0B2739F1228D373E00906851 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B2739F0228D373E00906851 /* click.mp3 */; };
 		78BD1BF31E89FB2A00CA0440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BF21E89FB2A00CA0440 /* main.m */; };
 		78BD1BF61E89FB2A00CA0440 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BF51E89FB2A00CA0440 /* AppDelegate.m */; };
-		78BD1BF91E89FB2A00CA0440 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BF81E89FB2A00CA0440 /* ShakeViewController.m */; };
 		78BD1BFC1E89FB2A00CA0440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BD1BFA1E89FB2A00CA0440 /* Main.storyboard */; };
 		78BD1BFE1E89FB2A00CA0440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BD1BFD1E89FB2A00CA0440 /* Assets.xcassets */; };
 		78BD1C011E89FB2A00CA0440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BD1BFF1E89FB2A00CA0440 /* LaunchScreen.storyboard */; };
@@ -40,18 +56,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		782CC2121E8A390600FB76E3 /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
-		782CC2151E8A501400FB76E3 /* UIView+ZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
-		782CC2161E8A501400FB76E3 /* UIView+ZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLExtension.m"; sourceTree = "<group>"; };
-		782CC2181E8A520D00FB76E3 /* shake_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_up@2x.png"; sourceTree = "<group>"; };
-		782CC2191E8A520D00FB76E3 /* shake_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_down@2x.png"; sourceTree = "<group>"; };
-		782CC21A1E8A520D00FB76E3 /* shake_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_bg@2x.png"; sourceTree = "<group>"; };
+		0B2739B9228D186F00906851 /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
+		0B2739BA228D186F00906851 /* shake_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_down@2x.png"; sourceTree = "<group>"; };
+		0B2739BB228D186F00906851 /* shake_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_bg@2x.png"; sourceTree = "<group>"; };
+		0B2739BC228D186F00906851 /* shake_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_up@2x.png"; sourceTree = "<group>"; };
+		0B2739BD228D186F00906851 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
+		0B2739BE228D186F00906851 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		0B2739C0228D186F00906851 /* Shake2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shake2ViewController.h; sourceTree = "<group>"; };
+		0B2739C1228D186F00906851 /* Shake2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shake2ViewController.m; sourceTree = "<group>"; };
+		0B2739CC228D2F7E00906851 /* shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shake.mp3; sourceTree = "<group>"; };
+		0B2739CD228D2F7E00906851 /* shake@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake@3x.png"; sourceTree = "<group>"; };
+		0B2739CE228D2F7E00906851 /* shake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake@2x.png"; sourceTree = "<group>"; };
+		0B2739CF228D2F7E00906851 /* result.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = result.mp3; sourceTree = "<group>"; };
+		0B2739D0228D2F7E00906851 /* shakeBg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shakeBg@3x.png"; sourceTree = "<group>"; };
+		0B2739D1228D2F7E00906851 /* shakeBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shakeBg@2x.png"; sourceTree = "<group>"; };
+		0B2739D8228D2F9D00906851 /* ZLAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAudioTool.h; sourceTree = "<group>"; };
+		0B2739D9228D2F9D00906851 /* ZLAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAudioTool.m; sourceTree = "<group>"; };
+		0B2739DC228D302600906851 /* UIAlertController+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Color.h"; sourceTree = "<group>"; };
+		0B2739DD228D302600906851 /* UIView+ZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
+		0B2739DE228D302600906851 /* UIView+ZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLExtension.m"; sourceTree = "<group>"; };
+		0B2739DF228D302600906851 /* UIAlertController+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Color.m"; sourceTree = "<group>"; };
+		0B2739E2228D36AB00906851 /* icon_music_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_music_on@3x.png"; sourceTree = "<group>"; };
+		0B2739E3228D36AC00906851 /* icon_music_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_music_off@2x.png"; sourceTree = "<group>"; };
+		0B2739E4228D36AC00906851 /* icon_music_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_music_on@2x.png"; sourceTree = "<group>"; };
+		0B2739E5228D36AC00906851 /* icon_music_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_music_off@3x.png"; sourceTree = "<group>"; };
+		0B2739EB228D36FD00906851 /* MuteSwitchListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteSwitchListener.h; sourceTree = "<group>"; };
+		0B2739EC228D36FD00906851 /* MuteSwitchListener.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MuteSwitchListener.bundle; sourceTree = "<group>"; };
+		0B2739ED228D36FD00906851 /* MuteSwitchListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteSwitchListener.m; sourceTree = "<group>"; };
+		0B2739F0228D373E00906851 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
 		78BD1BEE1E89FB2A00CA0440 /* ShakeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD1BF21E89FB2A00CA0440 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78BD1BF41E89FB2A00CA0440 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78BD1BF51E89FB2A00CA0440 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78BD1BF71E89FB2A00CA0440 /* ShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
-		78BD1BF81E89FB2A00CA0440 /* ShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
 		78BD1BFB1E89FB2A00CA0440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78BD1BFD1E89FB2A00CA0440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78BD1C001E89FB2A00CA0440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,24 +125,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		782CC2011E8A354300FB76E3 /* Resources */ = {
+		0B2739B2228D186F00906851 /* Shake1 */ = {
 			isa = PBXGroup;
 			children = (
-				782CC2181E8A520D00FB76E3 /* shake_up@2x.png */,
-				782CC2191E8A520D00FB76E3 /* shake_down@2x.png */,
-				782CC21A1E8A520D00FB76E3 /* shake_bg@2x.png */,
-				782CC2121E8A390600FB76E3 /* shake_sound_male.wav */,
+				0B2739BD228D186F00906851 /* ShakeViewController.h */,
+				0B2739BE228D186F00906851 /* ShakeViewController.m */,
+				0B2739B8228D186F00906851 /* Resources */,
+			);
+			path = Shake1;
+			sourceTree = "<group>";
+		};
+		0B2739B8228D186F00906851 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B2739B9228D186F00906851 /* shake_sound_male.wav */,
+				0B2739BA228D186F00906851 /* shake_down@2x.png */,
+				0B2739BB228D186F00906851 /* shake_bg@2x.png */,
+				0B2739BC228D186F00906851 /* shake_up@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		782CC2141E8A501400FB76E3 /* Category */ = {
+		0B2739BF228D186F00906851 /* Shake2 */ = {
 			isa = PBXGroup;
 			children = (
-				782CC2151E8A501400FB76E3 /* UIView+ZLExtension.h */,
-				782CC2161E8A501400FB76E3 /* UIView+ZLExtension.m */,
+				0B2739C0228D186F00906851 /* Shake2ViewController.h */,
+				0B2739C1228D186F00906851 /* Shake2ViewController.m */,
+				0B2739DB228D302600906851 /* Category */,
+				0B2739CA228D2F7D00906851 /* Tool */,
+				0B2739CB228D2F7E00906851 /* Resources */,
+			);
+			path = Shake2;
+			sourceTree = "<group>";
+		};
+		0B2739CA228D2F7D00906851 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0B2739D8228D2F9D00906851 /* ZLAudioTool.h */,
+				0B2739D9228D2F9D00906851 /* ZLAudioTool.m */,
+				0B2739EA228D36FD00906851 /* MuteSwitchListener */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0B2739CB228D2F7E00906851 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B2739E3228D36AC00906851 /* icon_music_off@2x.png */,
+				0B2739E5228D36AC00906851 /* icon_music_off@3x.png */,
+				0B2739E4228D36AC00906851 /* icon_music_on@2x.png */,
+				0B2739E2228D36AB00906851 /* icon_music_on@3x.png */,
+				0B2739CC228D2F7E00906851 /* shake.mp3 */,
+				0B2739CD228D2F7E00906851 /* shake@3x.png */,
+				0B2739CE228D2F7E00906851 /* shake@2x.png */,
+				0B2739F0228D373E00906851 /* click.mp3 */,
+				0B2739CF228D2F7E00906851 /* result.mp3 */,
+				0B2739D0228D2F7E00906851 /* shakeBg@3x.png */,
+				0B2739D1228D2F7E00906851 /* shakeBg@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B2739DB228D302600906851 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0B2739DC228D302600906851 /* UIAlertController+Color.h */,
+				0B2739DD228D302600906851 /* UIView+ZLExtension.h */,
+				0B2739DE228D302600906851 /* UIView+ZLExtension.m */,
+				0B2739DF228D302600906851 /* UIAlertController+Color.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		0B2739EA228D36FD00906851 /* MuteSwitchListener */ = {
+			isa = PBXGroup;
+			children = (
+				0B2739EB228D36FD00906851 /* MuteSwitchListener.h */,
+				0B2739EC228D36FD00906851 /* MuteSwitchListener.bundle */,
+				0B2739ED228D36FD00906851 /* MuteSwitchListener.m */,
+			);
+			path = MuteSwitchListener;
 			sourceTree = "<group>";
 		};
 		78BD1BE51E89FB2A00CA0440 = {
@@ -134,10 +232,8 @@
 			children = (
 				78BD1BF41E89FB2A00CA0440 /* AppDelegate.h */,
 				78BD1BF51E89FB2A00CA0440 /* AppDelegate.m */,
-				78BD1BF71E89FB2A00CA0440 /* ShakeViewController.h */,
-				78BD1BF81E89FB2A00CA0440 /* ShakeViewController.m */,
-				782CC2141E8A501400FB76E3 /* Category */,
-				782CC2011E8A354300FB76E3 /* Resources */,
+				0B2739B2228D186F00906851 /* Shake1 */,
+				0B2739BF228D186F00906851 /* Shake2 */,
 				78BD1BF11E89FB2A00CA0440 /* Supporting Files */,
 				78BD1BFA1E89FB2A00CA0440 /* Main.storyboard */,
 				78BD1BFD1E89FB2A00CA0440 /* Assets.xcassets */,
@@ -262,6 +358,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -282,13 +379,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782CC21D1E8A520D00FB76E3 /* shake_bg@2x.png in Resources */,
+				0B2739D5228D2F7E00906851 /* result.mp3 in Resources */,
+				0B2739D6228D2F7E00906851 /* shakeBg@3x.png in Resources */,
+				0B2739D7228D2F7E00906851 /* shakeBg@2x.png in Resources */,
+				0B2739E6228D36AC00906851 /* icon_music_on@3x.png in Resources */,
+				0B2739C5228D186F00906851 /* shake_down@2x.png in Resources */,
 				78BD1C011E89FB2A00CA0440 /* LaunchScreen.storyboard in Resources */,
-				782CC21C1E8A520D00FB76E3 /* shake_down@2x.png in Resources */,
+				0B2739E8228D36AC00906851 /* icon_music_on@2x.png in Resources */,
+				0B2739C7228D186F00906851 /* shake_up@2x.png in Resources */,
+				0B2739D2228D2F7E00906851 /* shake.mp3 in Resources */,
+				0B2739C6228D186F00906851 /* shake_bg@2x.png in Resources */,
+				0B2739F1228D373E00906851 /* click.mp3 in Resources */,
+				0B2739E7228D36AC00906851 /* icon_music_off@2x.png in Resources */,
 				78BD1BFE1E89FB2A00CA0440 /* Assets.xcassets in Resources */,
+				0B2739D3228D2F7E00906851 /* shake@3x.png in Resources */,
+				0B2739D4228D2F7E00906851 /* shake@2x.png in Resources */,
+				0B2739E9228D36AC00906851 /* icon_music_off@3x.png in Resources */,
+				0B2739C4228D186F00906851 /* shake_sound_male.wav in Resources */,
+				0B2739EE228D36FD00906851 /* MuteSwitchListener.bundle in Resources */,
 				78BD1BFC1E89FB2A00CA0440 /* Main.storyboard in Resources */,
-				782CC2131E8A390600FB76E3 /* shake_sound_male.wav in Resources */,
-				782CC21B1E8A520D00FB76E3 /* shake_up@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,10 +422,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78BD1BF91E89FB2A00CA0440 /* ShakeViewController.m in Sources */,
+				0B2739C9228D186F00906851 /* Shake2ViewController.m in Sources */,
+				0B2739C8228D186F00906851 /* ShakeViewController.m in Sources */,
+				0B2739EF228D36FD00906851 /* MuteSwitchListener.m in Sources */,
 				78BD1BF61E89FB2A00CA0440 /* AppDelegate.m in Sources */,
-				782CC2171E8A501400FB76E3 /* UIView+ZLExtension.m in Sources */,
 				78BD1BF31E89FB2A00CA0440 /* main.m in Sources */,
+				0B2739E0228D302600906851 /* UIView+ZLExtension.m in Sources */,
+				0B2739DA228D2F9D00906851 /* ZLAudioTool.m in Sources */,
+				0B2739E1228D302600906851 /* UIAlertController+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

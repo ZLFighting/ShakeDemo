@@ -3,9 +3,16 @@ iOS-高仿微信摇一摇动画效果加震动音效
 
 众所周知, 微信中的摇一摇功能: 搜索人/歌曲/电视，同样在一些其他类APP中也有一个摇一摇签到, 摇一摇随机选号等功能，下面以微信摇一摇功能来介绍实现原理.
 
-![](https://github.com/ZLFighting/ShakeDemo/blob/master/ShakeDemo/ShakeDemo.gif)
+![](https://github.com/ZLFighting/ShakeDemo/blob/master/ShakeDemo/Shake2.gif)
 
-> 实现步骤:
+> 第2种实现，相比第一种：
+1. 优化了摇动手机页面，整体的摇动而不是之前第一种的两半式的摇动
+2. 新增摇动声音的开关控制，可单独做声音控制工具类
+
+
+![](https://github.com/ZLFighting/ShakeDemo/blob/master/ShakeDemo/Shake1.gif)
+
+> 第1种实现步骤:
 1. 监听摇一摇方法
 2. 解决摇一摇失效的情况.
 3. 摇一摇阶段需要震动及声音.

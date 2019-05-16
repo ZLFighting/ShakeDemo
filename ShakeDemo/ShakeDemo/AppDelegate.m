@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ShakeViewController.h"
+#import "Shake2ViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ShakeViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[Shake2ViewController alloc] init]];
     [self.window makeKeyAndVisible];
     
     return YES;
